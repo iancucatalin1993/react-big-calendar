@@ -265,6 +265,7 @@ export default class TimeGrid extends Component {
             className="rbc-time-gutter"
             getters={getters}
           />
+          <div class="timeline" style={{width: '100px'}} />
           {this.renderEvents(
             range,
             rangeEvents,
